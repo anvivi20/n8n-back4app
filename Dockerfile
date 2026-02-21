@@ -27,4 +27,4 @@ HEALTHCHECK --interval=30s --timeout=10s --retries=3 \
   CMD wget --spider -q http://localhost:5678/healthz || exit 1
 
 # Start n8n
-CMD ["n8n", "start"]
+CMD ["n8n", "start"] 
